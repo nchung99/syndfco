@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070914" />
+  <meta name="description" content="SyndFCO - Cổng game, sự kiện, giftcode và tin tức game." />
+  <title>SyndFCO — Game Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oxanium:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#home" aria-label="SyndFCO home">
+        <span class="brand-mark"><i></i><i></i><i></i></span>
+        <span>Synd<span>FCO</span></span>
+      </a>
+
+      <button class="menu-btn" aria-label="Mở menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="#home" class="active">Trang chủ</a>
+        <a href="#games">Game</a>
+        <a href="#giftcodes">Giftcode</a>
+        <a href="#news">Tin tức</a>
+        <a href="#support">Hỗ trợ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://www.facebook.com/hungneee" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="nav-icon" title="Giftcode" aria-label="Giftcode">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 7v14M12 7H7.5A2.5 2.5 0 1 1 10 4.5L12 7Zm0 0h4.5A2.5 2.5 0 1 0 14 4.5L12 7Z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/hungneee" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="support-pill"><span></span> Hỗ trợ</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-orb hero-orb-a"></div>
+      <div class="hero-orb hero-orb-b"></div>
+      <div class="shell hero-shell">
+        <div class="hero-stage">
+          <div class="hero-slide active" data-theme="violet">
+            <div class="hero-art art-mythic">
+              <div class="art-rune rune-a"></div>
+              <div class="art-rune rune-b"></div>
+              <div class="character silhouette-warrior"></div>
+              <div class="mist"></div>
+            </div>
+            <div class="hero-copy">
+              <div class="eyebrow"><span>NEW MMORPG</span><i></i> Season 01</div>
+              <h1>THẦN MA<br><em>GIÁNG THẾ</em></h1>
+              <p>Khám phá đại lục huyền ảo, săn boss liên server và mở khóa hệ thống chiến đấu trên không thế hệ mới.</p>
+              <div class="hero-meta">
+                <span><b>12+</b> Class</span>
+                <span><b>200+</b> Skills</span>
+                <span><b>24/7</b> PvP</span>
+              </div>
+              <div class="hero-actions">
+                <a href="#games" class="btn btn-primary"><span>Khám phá ngay</span><b>↗</b></a>
+                <button class="btn btn-ghost trailer-btn" data-game-id="game-1" data-title="Thần Ma Giáng Thế"><span class="play">▶</span> Xem trailer</button>
+              </div>
+            </div>
+            <div class="hero-badge"><span>01</span><small>FEATURED<br>GAME</small></div>
+          </div>
+
+          <div class="hero-slide" data-theme="cyan">
+            <div class="hero-art art-sci">
+              <div class="planet"></div><div class="ring"></div><div class="ship"></div><div class="stars"></div>
+            </div>
+            <div class="hero-copy">
+              <div class="eyebrow"><span>STRATEGY</span><i></i> Update 2.4</div>
+              <h1>INFINITY<br><em>KINGDOM</em></h1>
+              <p>Xây dựng hạm đội, tranh giành thiên hà và điều khiển chiến trường chiến thuật thời gian thực.</p>
+              <div class="hero-meta"><span><b>4X</b> Strategy</span><span><b>60</b> Heroes</span><span><b>∞</b> Galaxy</span></div>
+              <div class="hero-actions"><a href="#games" class="btn btn-primary"><span>Chơi miễn phí</span><b>↗</b></a><button class="btn btn-ghost trailer-btn" data-game-id="game-2" data-title="Infinity Kingdom"><span class="play">▶</span> Xem trailer</button></div>
+            </div>
+            <div class="hero-badge"><span>02</span><small>FEATURED<br>GAME</small></div>
+          </div>
+
+          <div class="hero-slide" data-theme="rose">
+            <div class="hero-art art-action"><div class="sun-disc"></div><div class="slash s1"></div><div class="slash s2"></div><div class="character silhouette-ninja"></div></div>
+            <div class="hero-copy">
+              <div class="eyebrow"><span>ACTION RPG</span><i></i> Open Beta</div>
+              <h1>THẦN CƠ<br><em>ẤN</em></h1>
+              <p>Combo tốc độ cao, đại chiến bang hội và thế giới võ hiệp được tái hiện bằng phong cách điện ảnh.</p>
+              <div class="hero-meta"><span><b>8</b> Phái</span><span><b>120Hz</b> Combat</span><span><b>50v50</b> War</span></div>
+              <div class="hero-actions"><a href="#games" class="btn btn-primary"><span>Vào giang hồ</span><b>↗</b></a><button class="btn btn-ghost trailer-btn" data-game-id="game-3" data-title="Thần Cơ Ấn"><span class="play">▶</span> Xem trailer</button></div>
+            </div>
+            <div class="hero-badge"><span>03</span><small>FEATURED<br>GAME</small></div>
+          </div>
+
+          <div class="slider-nav">
+            <button class="slider-arrow prev" aria-label="Slide trước">←</button>
+            <div class="slider-dots" aria-label="Chọn slide"><button class="active" data-slide="0"></button><button data-slide="1"></button><button data-slide="2"></button></div>
+            <button class="slider-arrow next" aria-label="Slide sau">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section games" id="games">
+      <div class="shell">
+        <div class="section-head reveal">
+          <div><p class="kicker">BỘ SƯU TẬP</p><h2>GAME <span>ĐỀ XUẤT</span></h2></div>
+          <div class="filters" role="group" aria-label="Lọc game"><button class="active" data-filter="all">Tất cả</button><button data-filter="rpg">RPG</button><button data-filter="strategy">Chiến thuật</button><button data-filter="casual">Casual</button></div>
+        </div>
+
+        <div class="game-grid">
+          <article class="game-card reveal tilt" data-category="rpg">
+            <div class="game-cover cover-1"><span class="status live">HOT</span><div class="cover-symbol">✦</div><div class="cover-title">THẦN MA</div></div>
+            <div class="game-info"><div><p>MMORPG • Fantasy</p><h3>Thần Ma Giáng Thế</h3></div><a class="circle-arrow" href="#" data-game-link="game-1" aria-label="Mở trang Thần Ma Giáng Thế">↗</a></div>
+          </article>
+          <article class="game-card reveal tilt" data-category="strategy">
+            <div class="game-cover cover-2"><span class="status">NEW</span><div class="cover-symbol">⌬</div><div class="cover-title">INFINITY</div></div>
+            <div class="game-info"><div><p>4X • Strategy</p><h3>Infinity Kingdom</h3></div><a class="circle-arrow" href="#" data-game-link="game-2" aria-label="Mở trang Infinity Kingdom">↗</a></div>
+          </article>
+          <article class="game-card reveal tilt" data-category="rpg">
+            <div class="game-cover cover-3"><span class="status event">EVENT</span><div class="cover-symbol">刃</div><div class="cover-title">THẦN CƠ ẤN</div></div>
+            <div class="game-info"><div><p>Action RPG • Wuxia</p><h3>Thần Cơ Ấn</h3></div><a class="circle-arrow" href="#" data-game-link="game-3" aria-label="Mở trang Thần Cơ Ấn">↗</a></div>
+          </article>
+          <article class="game-card reveal tilt" data-category="rpg">
+            <div class="game-cover cover-4"><span class="status">BETA</span><div class="cover-symbol">◉</div><div class="cover-title">ETHEREAL</div></div>
+            <div class="game-info"><div><p>3D MMORPG • Xianxia</p><h3>Ethereal Slayer</h3></div><a class="circle-arrow" href="#" data-game-link="game-4" aria-label="Mở trang Ethereal Slayer">↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section giftcodes" id="giftcodes">
+      <div class="shell">
+        <div class="section-head reveal"><div><p class="kicker">QUÀ TẶNG</p><h2>GIFTCODE <span>ĐANG HOT</span></h2></div><a href="#giftcodes" class="text-link">Xem tất cả <span>→</span></a></div>
+        <div class="code-grid">
+          <article class="code-card reveal">
+            <div class="code-game-icon icon-1">✦</div><div class="code-body"><div class="code-top"><span>THẦN MA GIÁNG THẾ</span><small>Còn 88 code</small></div><h3>TÂN THỦ THẦN MA</h3><div class="claim-progress"><i style="--w:82%"></i></div><div class="code-bottom"><span><b>412</b> / 500 đã nhận</span><button class="claim-btn" data-code="TMGT2026">Nhận code</button></div></div>
+          </article>
+          <article class="code-card reveal">
+            <div class="code-game-icon icon-2">⌬</div><div class="code-body"><div class="code-top"><span>INFINITY KINGDOM</span><small>Còn 49 code</small></div><h3>WELCOME TO INFINITY</h3><div class="claim-progress"><i style="--w:76%"></i></div><div class="code-bottom"><span><b>151</b> / 200 đã nhận</span><button class="claim-btn" data-code="INFINITY888">Nhận code</button></div></div>
+          </article>
+          <article class="code-card reveal">
+            <div class="code-game-icon icon-3">刃</div><div class="code-body"><div class="code-top"><span>ETHEREAL SLAYER</span><small>Còn 76 code</small></div><h3>XIANXIA WELCOME PACK</h3><div class="claim-progress"><i style="--w:62%"></i></div><div class="code-bottom"><span><b>124</b> / 200 đã nhận</span><button class="claim-btn" data-code="ETHEREAL999">Nhận code</button></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section news" id="news">
+      <div class="shell">
+        <div class="section-head reveal"><div><p class="kicker">CẬP NHẬT</p><h2>TIN TỨC <span>& SỰ KIỆN</span></h2></div><div class="news-tabs"><button class="active" data-news="all">Tất cả</button><button data-news="event">Sự kiện</button><button data-news="update">Cập nhật</button></div></div>
+        <div class="news-layout">
+          <article class="news-feature reveal" data-type="event">
+            <div class="news-img news-img-main"><span class="news-chip">SỰ KIỆN</span><div class="news-art-ring"></div><div class="news-art-logo">NOVA<br>FEST</div></div>
+            <div class="news-copy"><div class="date">14.09.2026</div><h3>Thần Ma Giáng Thế — Khai mở server mới</h3><p>Chuỗi sự kiện cộng đồng với giftcode giới hạn, giải đấu PvP và hàng loạt phần thưởng độc quyền.</p><a href="#">Đọc chi tiết <span>↗</span></a></div>
+          </article>
+          <div class="news-list">
+            <article class="news-row reveal" data-type="update"><div class="news-thumb thumb-1" role="img" aria-label="Infinity Kingdom cập nhật 2.4"></div><div><span class="mini-chip">UPDATE</span><h3>Infinity Kingdom cập nhật phiên bản 2.4: Hạm đội Titan xuất hiện</h3><p>13.09.2026 • 5 phút đọc</p></div><b>↗</b></article>
+            <article class="news-row reveal" data-type="event"><div class="news-thumb thumb-2" role="img" aria-label="Thần Cơ Ấn chiến trường Bang Hội 50v50"></div><div><span class="mini-chip event">EVENT</span><h3>Thần Cơ Ấn mở chiến trường Bang Hội 50v50</h3><p>11.09.2026 • 4 phút đọc</p></div><b>↗</b></article>
+            <article class="news-row reveal" data-type="update"><div class="news-thumb thumb-3" role="img" aria-label="Thần Vực Season 01"></div><div><span class="mini-chip">UPDATE</span><h3>Thần Vực Season 01: hệ thống Thần Khí và Boss Thế Giới</h3><p>09.09.2026 • 6 phút đọc</p></div><b>↗</b></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section support" id="support">
+      <div class="shell">
+        <div class="support-panel reveal">
+          <div><p class="kicker">CẦN TRỢ GIÚP?</p><h2>LUÔN CÓ ĐỘI NGŨ<br><span>ĐỒNG HÀNH CÙNG BẠN.</span></h2><p>Tra cứu câu hỏi thường gặp, báo lỗi game hoặc liên hệ đội ngũ hỗ trợ.</p></div>
+          <div class="support-actions"><a href="https://www.facebook.com/hungneee/" target="_blank" rel="noopener noreferrer" class="support-card"><div class="support-icon">?</div><div><b>Trung tâm hỗ trợ</b><span>FAQ & hướng dẫn</span></div><i>↗</i></a><a href="https://www.facebook.com/hungneee/" target="_blank" rel="noopener noreferrer" class="support-card"><div class="support-icon">⚡</div><div><b>Báo lỗi nhanh</b><span>Gửi yêu cầu hỗ trợ</span></div><i>↗</i></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark"><i></i><i></i><i></i></span><span>Synd<span>FCO</span></span></a><p>Cổng game & cộng đồng dành cho thế hệ người chơi mới.</p></div>
+      <div><h4>Khám phá</h4><a href="#games">Game</a><a href="#giftcodes">Giftcode</a><a href="#news">Tin tức</a></div>
+      <div><h4>Hỗ trợ</h4><a href="https://www.facebook.com/hungneee/" target="_blank" rel="noopener noreferrer">Trung tâm hỗ trợ</a><a href="#">Điều khoản</a><a href="#">Chính sách bảo mật</a></div>
+      <div><h4>Kết nối</h4><div class="socials"><a href="https://www.facebook.com/hungneee/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a><a href="https://www.facebook.com/hungneee/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">▶</a><a href="https://www.facebook.com/hungneee/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">◎</a></div></div>
+    </div>
+    <div class="shell footer-bottom"><span>© 2026 Synd. All rights reserved.</span><span>Made for the next game universe.</span></div>
+  </footer>
+
+  <div class="modal" id="trailerModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card"><button class="modal-close" aria-label="Đóng">×</button><video class="trailer-video" id="trailerVideo" controls playsinline preload="metadata"></video><p>TRAILER PREVIEW</p><h3 id="trailerTitle">Game Trailer</h3><small></small></div>
+  </div>
+
+  <div class="toast" id="toast"><span>✓</span><div><b>Đã nhận giftcode</b><small id="toastCode">TMGT2026</small></div></div>
+
+  <script src="data/games.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
